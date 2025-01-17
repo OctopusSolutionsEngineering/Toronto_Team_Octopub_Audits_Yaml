@@ -38,4 +38,4 @@ spec:
             - name: MIGRATE_AT_START
               value: "false"
             - name: COGNITO_DISABLE_AUTH
-              value: "true"
+              value: "true" #Comment
