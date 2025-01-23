@@ -13,7 +13,7 @@ spec:
         component: #{Project.Labels.Component}
     spec:
       containers:
-        - name: auditservice
+        - name: auditservice #audit service name
           image: octopussamples/octopub-audit-microservice-mysql:#{Project.Container.Tag}
           ports:
             - name: http-audit
